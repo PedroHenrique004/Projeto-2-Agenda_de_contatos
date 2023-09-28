@@ -18,6 +18,10 @@ function novaLinha(){
         alert(`O contato ${inputNomeContato.value} já existe`);
     }
 
+    else if(numeroContato.includes(inputNumeroContato.value)){
+        alert(`O numero ${inputNumeroContato.value} já foi dicionado`);
+    }
+
     else {
         nomeContato.push(inputNomeContato.value);
         numeroContato.push(parseFloat(inputNumeroContato.value));
