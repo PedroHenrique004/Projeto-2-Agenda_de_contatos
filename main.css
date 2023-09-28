@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #228BE6;
+    font-family: 'Onest', sans-serif;
+}
+
+h1, th{
+    font-family: 'Mooli', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 150px auto;
+    background-color: #cbcbcb;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+header img {
+    width: 32px;
+    margin-right: 16px;
+}
+
+
+input {
+    width: 300px;
+    padding: 8px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    font-family: 'Onest', sans-serif;
+    color:black;
+}
+
+#insira-nome {
+    margin-left: 64px;
+}
+
+button {
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+    font-family: 'Onest', sans-serif;
+}
+button:hover {
+   background-color: #dad8d8; 
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+table img {
+    width: 16px;
+    margin-left: 8px;
+}
